@@ -1,0 +1,30 @@
+{
+  "name": "@higby/eleventy-links",
+  "version": "1.0.0",
+  "description": "Adds `noopener` and  `noreferrer` to outbound links",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/higby/eleventy-links.git"
+  },
+  "keywords": [
+    "eleventy",
+    "11ty",
+    "plugin",
+    "links",
+    "noopener",
+    "noreferrer"
+  ],
+  "author": "Branden Higby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/higby/eleventy-links/issues"
+  },
+  "homepage": "https://github.com/higby/eleventy-links#readme",
+  "dependencies": {
+    "jsdom": "^18.0.0"
+  }
+}
