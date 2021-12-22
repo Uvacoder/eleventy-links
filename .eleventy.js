@@ -13,5 +13,7 @@ async function safeLinks(content, outputPath) {
 }
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addTransform("safeLinks", safeLinks);
+  if(process.env.ELEVENTY_ENV === "development") {
+    eleventyConfig.addTransform("safeLinks", safeLinks);
+  }
 };

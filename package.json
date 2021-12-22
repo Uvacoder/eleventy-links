@@ -1,6 +1,6 @@
 {
   "name": "@higby/eleventy-links",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds `noopener` and  `noreferrer` to outbound links",
   "main": ".eleventy.js",
   "scripts": {
